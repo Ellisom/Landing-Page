@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta name="author" content="Ellisom da Silva" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+
+<body class="main-bg">
+    <input id="close-menu" class="close-menu" type="checkbox" role="button" aria-label="Close menu"/>
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked=false; "><a href="#home">Logo</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked=false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#pricing">Price</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing">
+    </div>
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January Brings us Firefox 85</h2>
+                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are
+                    bringing
+                    you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete
+                    removal
+                    of Flash support from Firefox.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript.svg"
+                    alt="Personagens segurando em suas mãos logotipos de HTML5, CSS3 e JS" />
+            </div>
+        </div>
+    </section>
+    <section id="intro" class="section white-bg">
+        <div class="main-content in-content">
+            <h2>Introduction</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
+                some surprises at the machine’s performance. This post details some background information on the
+                experience of porting Firefox to run natively on these CPUs.</p>
+            <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that
+                needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+            <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur,
+                and discuss various updater problems we had to deal with. We’ll conclude with the release and an
+                overview of various other improvements that are in the pipeline.</p>
+
+        </div>
+    </section>
+    <section id="top3" class="section main-bg">
+        <div class="main-content top3-grid">
+            <h2>Top 3 information</h2>
+            <p>Uma breve descrição</p>
+            <div class="grid">
+                <article>
+                    <h3>First</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nulla sapiente, debitis quis
+                        perferendis corrupti ipsam, perspiciatis omnis consectetur culpa distinctio ex minima a dolore.
+                        Eos quae obcaecati minima incidunt!</p>
+                </article>
+                <article>
+                    <h3>Second</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nulla sapiente, debitis quis
+                        perferendis corrupti ipsam, perspiciatis omnis consectetur culpa distinctio ex minima a dolore.
+                        Eos quae obcaecati minima incidunt!</p>
+                </article>
+                <article>
+                    <h3>Third</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nulla sapiente, debitis quis
+                        perferendis corrupti ipsam, perspiciatis omnis consectetur culpa distinctio ex minima a dolore.
+                        Eos quae obcaecati minima incidunt!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="section white-bg">
+        <div class="main-content gallery">
+            <h2>Gallery</h2>
+            <p>Uma breve descrição</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=1"
+                        alt="Imagem randômica do source unsplash com dimensão de 360x360" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=2"
+                        alt="Imagem randômica do source unsplash com dimensão de 360x360" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=3"
+                        alt="Imagem randômica do source unsplash com dimensão de 360x360" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=4"
+                        alt="Imagem randômica do source unsplash com dimensão de 360x360" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=5"
+                        alt="Imagem randômica do source unsplash com dimensão de 360x360" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=6"
+                        alt="Imagem randômica do source unsplash com dimensão de 360x360" />
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <section id="work" class="section main-bg">
+        <div class="main-content top3-grid">
+            <h2>Recent Jobs</h2>
+            <p>Uma breve descrição</p>
+            <div class="grid">
+                <article>
+                    <h3>A good one</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nulla sapiente, debitis quis
+                        perferendis corrupti ipsam, perspiciatis omnis consectetur culpa distinctio ex minima a dolore.
+                        Eos quae obcaecati minima incidunt!</p>
+                </article>
+                <article>
+                    <h3>Great job</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nulla sapiente, debitis quis
+                        perferendis corrupti ipsam, perspiciatis omnis consectetur culpa distinctio ex minima a dolore.
+                        Eos quae obcaecati minima incidunt!</p>
+                </article>
+                <article>
+                    <h3>The best</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nulla sapiente, debitis quis
+                        perferendis corrupti ipsam, perspiciatis omnis consectetur culpa distinctio ex minima a dolore.
+                        Eos quae obcaecati minima incidunt!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="section white-bg">
+        <div class="main-content pricing">
+            <h2>Pricing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis dolor et iusto voluptas tempora ullam
+                praesentium, laboriosam perferendis omnis, autem accusamus minus recusandae id eligendi enim qui nostrum
+                tempore quam?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis dolor et iusto voluptas tempora ullam
+                praesentium, laboriosam perferendis omnis, autem accusamus minus recusandae id eligendi enim qui nostrum
+                tempore quam?</p>
+            <div class="table">
+                <table>
+                    <caption>Tabela de preços</caption>
+                    <thead>
+                        <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                            <th>Título 4</th>
+                            <th>Título 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Corpo 1</td>
+                            <td>Corpo 2</td>
+                            <td>Corpo 3</td>
+                            <td>Corpo 4</td>
+                            <td>Corpo 5</td>
+                        </tr>
+                        <tr>
+                            <td>Corpo 4</td>
+                            <td>Corpo 5</td>
+                            <td>Corpo 6</td>
+                            <td>Corpo 7</td>
+                            <td>Corpo 8</td>
+                        </tr>
+                        <tr>
+                            <td>Corpo 7</td>
+                            <td>Corpo 8</td>
+                            <td>Corpo 9</td>
+                            <td>Corpo 10</td>
+                            <td>Corpo 11</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2" rowspan="2"></td>
+                            <td colspan="2" rowspan="2"></td>
+                            <td>Total: $$$$$</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section main-bg">
+        <div class="main-content contact">
+            <div class="contact-text">
+                <h2>Contact Us</h2>
+                <p style="margin-bottom: 3rem;">Deixe sua mensagem</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, non nulla ducimus asperiores voluptates
+                    ullam, necessitatibus alias nostrum, commodi accusamus dolor voluptas est. Ad nisi, qui provident
+                    incidunt autem ratione.</p>
+            </div>
+            <div class="contact-img">
+                <img src="assets/img/contact.svg" alt="imagem de email para contato" />
+            </div>
+            <div class="contact-form">
+                <form action="" method="">
+                    <fieldset class="form-grid">
+                        <legend>Contact form</legend>
+
+                        <div class="form-group">
+                            <label for="fname">First name</label>
+                            <input type="text" id="fname" name="fname" placeholder="Your name" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lname">Last name</label>
+                            <input type="text" id="lname" name="lname" placeholder="Your last name" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="Your email" />
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Your message"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="footer white-bg">
+        <h4>Criado e desenvolvido por Ellisom da Silva</h4>
+        <p>Links:</p>
+        <div>
+            <a href="https://www.linkedin.com/in/ellisom-da-silva-de-medeiros-59251115a/" target="_blank">
+                <img src="assets/img/linkedin.png" alt="linkedin icon" />
+            </a>
+        </div>
+        <div>
+            <a href="https://github.com/Ellisom" target="_blank">
+                <img src="assets/img/github.png" alt="github icon" />
+            </a>
+        </div>
+    </div>
+            <a class="back-to-top" href="#home">
+                <p>➤</p>
+            </a>
+</body>
+
+</html>
