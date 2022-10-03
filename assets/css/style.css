@@ -94,6 +94,7 @@ a {
 
 .main-content {
     max-width: 120rem;
+    padding: 3rem;
     margin: 0 auto;
 }
 
@@ -174,6 +175,7 @@ a {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    text-align: center;
 }
 
 .in-content p {
@@ -190,6 +192,7 @@ a {
 
 .top3-grid h2 {
     margin-bottom: 0;
+    display: inline-block;
 }
 
 .grid {
@@ -403,6 +406,9 @@ table {
 
 @media (max-width:50rem) {
 
+    h2 {
+        font-size:4rem;
+    }
     .intro-content,
     .grid {
         grid-template-columns: 1fr;
